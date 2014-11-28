@@ -6,59 +6,63 @@
         <meta name="keywords" content="">
         <meta name="description" content="">
     </head>
-    <body>
-        <header class="mobile-page-header">
-            <figure class="logo">
-                <span>Pink</span>
+    
+    <body class="b-main-page">
+        <header class="b-page-header">
+            <figure class="b-logo">
+                <a href="/"><img src="#" alt="Pink!"></a>
             </figure>
-            <nav class="mobile-top-menu">
+            
+            <nav class="b-top-menu">
                 <ul>
-                    <li><a href="#">Информация</a></li>
-                    <li><a href="#">Возможности</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Стоимость</a></li>
-                </ul>                
+                    <li class="b-top-menu__item"><a href="#">Информация</a></li>
+                    <li class="b-top-menu__item"><a href="#">Возможности</a></li>
+                    <li class="b-top-menu__item"><a href="#">Отзывы</a></li>
+                    <li class="b-top-menu__item"><a href="#">Стоимость</a></li>                
+                </ul>
             </nav>
+            
         </header>
         
-        <section class="mobile-info">
-            <h1>Взгляните на жизнь иначе!</h1>            
+        
+        <section class="b-info">
+            <span class="b-block-title">Взгляните на жизнь иначе!</span>       
         </section>
         
-        <section class="mobile-downloads-app">           
-            <h1>Скачать приложение</h1>
+        <section class="b-dwnl-app">           
+            <span class="b-dwnl-app__btn">Скачать приложение</span>
            
-            <ul class="mobile-choose-app-type">
-                <li><a href="#"><img src="#" alt="Apple iOS"></a></li>
-                <li><a href="#"><img src="#" alt="Android"></a></li>
-                <li><a href="#"><img src="#" alt="Windows Phone"></a></li>
+            <ul class="b-os-list">
+                <li class="b-os-list__item"><a href="#"><img src="#" alt="Apple iOS"></a></li>
+                <li class="b-os-list__item"><a href="#"><img src="#" alt="Android"></a></li>
+                <li class="b-os-list__item"><a href="#"><img src="#" alt="Windows Phone"></a></li>
             </ul>
             
-            <p class="desc-text">Доступно для iPhone, iPad, Android, Windows Phone, Mac OS, Windows 8</p>
+            <p class="b-desc">Доступно для iPhone, iPad, Android, Windows Phone, Mac OS, Windows 8</p>
             
         </section>
         
-        <section class="mobile-proposal">
-            <p class="desc-text">Устали от серости мегаполиса?</p>
-            <p class="desc-text">Нам есть, что вам предложить!</p>            
+        <section class="b-proposal">
+            <p class="b-proposal__desc">Устали от серости мегаполиса?</p>
+            <p class="b-ppoposal__desc">Нам есть, что вам предложить!</p>            
         </section>
         
-        <section class="mobile-desc-app">
-            <h2>Поднимает настроение</h2>
-            <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        <section class="b-desc-app">
+            <h2 class="b-h2-title">Поднимает настроение</h2>
+            <p class="b-desc b-desc_text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
             
-            <h2>Меняет мир вокруг</h2>
-            <p>Сделайте снимок и украсьте его смайликом или текстовой подписью чтобы усить эффект.</p>
+            <h2 class="b-h2-title">Меняет мир вокруг</h2>
+            <p class="b-desc b-desc_text">Сделайте снимок и украсьте его смайликом или текстовой подписью чтобы усить эффект.</p>
             
-            <h2>Заводит новых друзей</h2>
-            <p>Ставьте лайки, комментируйте, делитесь фотографими с друзьями и заводите новых.</p>            
+            <h2 class="b-h2-title">Заводит новых друзей</h2>
+            <p class="b-desc b-desc_text">Ставьте лайки, комментируйте, делитесь фотографими с друзьями и заводите новых.</p>            
         </section>
         
         <section class="mobile-review-slider">
             <ul class="reviews-slider">
                 <li class="active">
                     <span>Николай Петров</span> 
-                    <p>&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к вложенной фотографии!&raquo;</p>
+                    <p>&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к вложенной фотографии!&raquo;</p> <!-- blockquote -->
                 </li>
             </ul>
             <ul class="reviews-slider-control">
@@ -72,7 +76,7 @@
             <ul class="prices-box">
                 <li class="box">
                     <div class="header">
-                        <span class="title">Стандарт</span>
+                        <span class="title">Стандарт</span> <!-- a -->
                         <span class="price">3,99 USD</span>                        
                     </div>
                     <ul class="box-option">
