@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
         <title>Pink! Взгляни на жизнь иначе</title>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="keywords" content="">
         <meta name="description" content="">
     </head>
@@ -58,62 +59,64 @@
             <p class="b-desc b-desc_text">Ставьте лайки, комментируйте, делитесь фотографими с друзьями и заводите новых.</p>            
         </section>
         
-        <section class="mobile-review-slider">
-            <ul class="reviews-slider">
-                <li class="active">
-                    <span>Николай Петров</span> 
-                    <p>&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к вложенной фотографии!&raquo;</p> <!-- blockquote -->
+        <section class="b-feedback">
+            <ul class="b-reviews-slider">
+                <li class="b-reviews-slider__item b-reviews-slider_active">
+                    <h2 class="b-h2-title">Николай Петров</h2> 
+                    <p class="b-desc b-desc_text">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к вложенной фотографии!&raquo;</p> <!-- blockquote -->
                 </li>
             </ul>
-            <ul class="reviews-slider-control">
-                <li><span>1</span></li>
-                <li><span>2</span></li>
-                <li><span>3</span></li>
+            <ul class="b-control-box">
+                <li class="b-control-box__item"><span>1</span></li>
+                <li class="b-control-box__item"><span>2</span></li>
+                <li class="b-control-box__item"><span>3</span></li>
             </ul>
         </section>
         
-        <section class="mobile-prices">
-            <ul class="prices-box">
-                <li class="box">
-                    <div class="header">
-                        <span class="title">Стандарт</span> <!-- a -->
-                        <span class="price">3,99 USD</span>                        
+        <section class="b-prices">
+            <ul class="b-prices-box">
+                <li class="b-prices-box__item">
+                    <div class="b-prices-box__header">
+                        <h2 class="b-h2-title b-prices-box_price-title">Стандарт</span> <!-- a -->
+                        <h2 class="b-h2-title b-prices-box_price-price">3,99 USD</span>                        
                     </div>
-                    <ul class="box-option">
-                        <li>
-                            <span class="option-title">Розовый фильтр</span>
-                            <span class="option-icon-yes"></span>
+                    <ul class="b-prices-options">
+                        <li class="b-prices-options__item">
+                            <span class="b-prices-options__option-title">Розовый фильтр</span>
+                            <span class="b-prices-options__option-icon-yes"></span>
                         </li>
                         <li>
-                            <span class="option-title">Смайлики</span>
-                            <span class="option-icon-yes"></span>
+                            <span class="b-prices-options__option-title">Смайлики</span>
+                            <span class="b-prices-options__option-icon-yes"></span>
                         </li>
                         <li>
-                            <span class="option-title">Комментарии</span>
-                            <span class="option-icon-no"></span>
+                            <span class="b-prices-options__option-title">Комментарии</span>
+                            <span class="b-prices-options__option-icon-no"></span>
                         </li>
                     </ul>
                 </li>
             </ul>
-            <ul class="prices-box-control">
-                <li><span>1</span></li>
-                <li><span>2</span></li>
-                <li><span>3</span></li>
+            
+            <ul class="b-control-box">
+                <li class="b-control-box__item"><span>1</span></li>
+                <li class="b-control-box__item"><span>2</span></li>
+                <li class="b-control-box__item"><span>3</span></li>
             </ul>
+            
         </section>
         
-        <section class="mobile-contacts">
-            <h2>Остались вопросы? Свяжитесь с нами!</h2>
-            <h3>Звоните:</h3>
-            <p>8(800) 1000 900</p>
+        <section class="b-contacts">
+            <h2 class="b-h2-title">Остались вопросы? Свяжитесь с нами!</h2>
+            <h3 class="b-h3-title">Звоните:</h3>
+            <span class="b-contact-label">8(800) 1000 900</span>
             
-            <h3>Пишите:</h3>
-            <p><a href="mailto:hello@pinkapp.ru">hello@pinkapp.ru</a></p>
+            <h3 class="b-h3-title">Пишите:</h3>
+            <a class="b-contact-label" href="mailto:hello@pinkapp.ru">hello@pinkapp.ru</a>
             
-            <h3>Приезжайте в гости:</h3>
-            <address>Санкт-Петербург, Невский проспект, д. 20</address>
+            <h3 class="b-h3-title">Приезжайте в гости:</h3>
+            <address class="b-contact-label">Санкт-Петербург, Невский проспект, д. 20</address>
             
-            <div class="yandex-map"></div>
+            <div class="b-map b-map_yandex"></div>
         </section>
     </body>   
 </html>
